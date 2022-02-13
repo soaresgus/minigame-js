@@ -1,0 +1,104 @@
+/*Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background: url(imagens/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+html {
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+
+/*Geral*/
+
+/*Index*/
+
+#logo, #control {
+    display: flex;
+    justify-content: center;
+}
+
+#nivel {
+    width: 250px;
+    margin: 0 auto;
+}
+
+#iniciar {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+
+/*Index*/
+
+/*Game*/
+
+#flex {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+#controlador {
+    background-color: rgba(127, 127, 127, 0.6);
+    width: 180px;
+    height: 115px;
+    margin: 8px;
+}
+
+#controlador span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#coracao {
+    text-align: center;
+    padding: 15px;
+}
+
+#mosca {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    z-index: 1000;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: none;
+    /*margin-top: 5% - 30%;
+    margin-left: 10% - 80%;*/
+    /*margin-top: 80px - 480px*/
+    /*margin-left: 380px - 1080px;*/
+}
+
+/*Game*/
+
+/*GameOver*/
+
+#global {
+    display: flex;
+    justify-content: center;
+}
+
+#dados {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(127, 127, 127, 0.6);
+    padding: 15px;
+    align-items: center;
+}
+
+#dados span:first-child {
+    margin-right: 30px;
+}
+
+
+/*GameOver
